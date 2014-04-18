@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222C000018F304CC009CDA66 /* Main~iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222CFFFF18F304CC009CDA66 /* Main~iPad.storyboard */; };
+		222C000218F457E3009CDA66 /* flyfly.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 222C000118F457E3009CDA66 /* flyfly.atlas */; };
+		222CFFFE18F30394009CDA66 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 222CFFFD18F30394009CDA66 /* background.png */; };
+		22684F2518F2D89900F92E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F2418F2D89900F92E61 /* Foundation.framework */; };
+		22684F2718F2D89900F92E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F2618F2D89900F92E61 /* CoreGraphics.framework */; };
+		22684F2918F2D89900F92E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F2818F2D89900F92E61 /* UIKit.framework */; };
+		22684F2B18F2D89900F92E61 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F2A18F2D89900F92E61 /* SpriteKit.framework */; };
+		22684F3118F2D89900F92E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22684F2F18F2D89900F92E61 /* InfoPlist.strings */; };
+		22684F3318F2D89900F92E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F3218F2D89900F92E61 /* main.m */; };
+		22684F4418F2D89A00F92E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22684F4318F2D89A00F92E61 /* Images.xcassets */; };
+		22684F4B18F2D89A00F92E61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F4A18F2D89A00F92E61 /* XCTest.framework */; };
+		22684F4C18F2D89A00F92E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F2418F2D89900F92E61 /* Foundation.framework */; };
+		22684F4D18F2D89A00F92E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F2818F2D89900F92E61 /* UIKit.framework */; };
+		22684F5518F2D89A00F92E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22684F5318F2D89A00F92E61 /* InfoPlist.strings */; };
+		22684F5718F2D89A00F92E61 /* FlyFlyIPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F5618F2D89A00F92E61 /* FlyFlyIPadTests.m */; };
+		22684F6118F2D8BD00F92E61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22684F6018F2D8BD00F92E61 /* Security.framework */; };
+		22684F7C18F2D9A100F92E61 /* ScoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F6618F2D9A100F92E61 /* ScoreObject.m */; };
+		22684F7D18F2D9A100F92E61 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F6818F2D9A100F92E61 /* GameViewController.m */; };
+		22684F7E18F2D9A100F92E61 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F6A18F2D9A100F92E61 /* InstructionsViewController.m */; };
+		22684F7F18F2D9A100F92E61 /* HighscoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F6C18F2D9A100F92E61 /* HighscoresTableViewController.m */; };
+		22684F8018F2D9A100F92E61 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F6E18F2D9A100F92E61 /* ScoreViewController.m */; };
+		22684F8118F2D9A100F92E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F7018F2D9A100F92E61 /* AppDelegate.m */; };
+		22684F8218F2D9A100F92E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22684F7118F2D9A100F92E61 /* Main.storyboard */; };
+		22684F8318F2D9A100F92E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F7318F2D9A100F92E61 /* ViewController.m */; };
+		22684F8418F2D9A100F92E61 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F7518F2D9A100F92E61 /* MyScene.m */; };
+		22684F8518F2D9A100F92E61 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F7718F2D9A100F92E61 /* SimpleTableCell.m */; };
+		22684F8618F2D9A100F92E61 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22684F7818F2D9A100F92E61 /* SimpleTableCell.xib */; };
+		22684F9B18F2DA1500F92E61 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F8918F2DA1500F92E61 /* AFHTTPRequestOperation.m */; };
+		22684F9C18F2DA1500F92E61 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F8B18F2DA1500F92E61 /* AFHTTPRequestOperationManager.m */; };
+		22684F9D18F2DA1500F92E61 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F8D18F2DA1500F92E61 /* AFHTTPSessionManager.m */; };
+		22684F9E18F2DA1500F92E61 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F9018F2DA1500F92E61 /* AFNetworkReachabilityManager.m */; };
+		22684F9F18F2DA1500F92E61 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F9218F2DA1500F92E61 /* AFSecurityPolicy.m */; };
+		22684FA018F2DA1500F92E61 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F9418F2DA1500F92E61 /* AFURLConnectionOperation.m */; };
+		22684FA118F2DA1500F92E61 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F9618F2DA1500F92E61 /* AFURLRequestSerialization.m */; };
+		22684FA218F2DA1500F92E61 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F9818F2DA1500F92E61 /* AFURLResponseSerialization.m */; };
+		22684FA318F2DA1500F92E61 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22684F9A18F2DA1500F92E61 /* AFURLSessionManager.m */; };
+		22A5179A18F4677B0075E71D /* orbOrange.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 22A5179918F4677B0075E71D /* orbOrange.atlas */; };
+		22A5179C18F484DC0075E71D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A5179B18F484DC0075E71D /* AVFoundation.framework */; };
+		22A5179F18F4974F0075E71D /* Combo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5179E18F4974F0075E71D /* Combo.m */; };
+		22A517A218F49AF00075E71D /* flyflycute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22A517A018F49AF00075E71D /* flyflycute.mp3 */; };
+		22A517A318F49AF00075E71D /* flyflyhardcore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22A517A118F49AF00075E71D /* flyflyhardcore.mp3 */; };
+		22A517A518F4A25A0075E71D /* backgroundHardcore.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A517A418F4A25A0075E71D /* backgroundHardcore.png */; };
+		22A6D5E618F697F100E39554 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6D5E518F697F100E39554 /* CoreMotion.framework */; };
+		22AED33C18FC72A40051684A /* note.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22AED33B18FC72A40051684A /* note.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22684F4E18F2D89A00F92E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22684F1918F2D89900F92E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22684F2018F2D89900F92E61;
+			remoteInfo = FlyFlyIPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222C000118F457E3009CDA66 /* flyfly.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = flyfly.atlas; sourceTree = "<group>"; };
+		222CFFFD18F30394009CDA66 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../background.png; sourceTree = "<group>"; };
+		222CFFFF18F304CC009CDA66 /* Main~iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Main~iPad.storyboard"; path = "../Main~iPad.storyboard"; sourceTree = "<group>"; };
+		22684F2118F2D89900F92E61 /* FlyFlyIPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyFlyIPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22684F2418F2D89900F92E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22684F2618F2D89900F92E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22684F2818F2D89900F92E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22684F2A18F2D89900F92E61 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		22684F2E18F2D89900F92E61 /* FlyFlyIPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyFlyIPad-Info.plist"; sourceTree = "<group>"; };
+		22684F3018F2D89900F92E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22684F3218F2D89900F92E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22684F3418F2D89900F92E61 /* FlyFlyIPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyFlyIPad-Prefix.pch"; sourceTree = "<group>"; };
+		22684F4318F2D89A00F92E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22684F4918F2D89A00F92E61 /* FlyFlyIPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyFlyIPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22684F4A18F2D89A00F92E61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22684F5218F2D89A00F92E61 /* FlyFlyIPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyFlyIPadTests-Info.plist"; sourceTree = "<group>"; };
+		22684F5418F2D89A00F92E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22684F5618F2D89A00F92E61 /* FlyFlyIPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyFlyIPadTests.m; sourceTree = "<group>"; };
+		22684F6018F2D8BD00F92E61 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		22684F6518F2D9A100F92E61 /* ScoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreObject.h; sourceTree = "<group>"; };
+		22684F6618F2D9A100F92E61 /* ScoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreObject.m; sourceTree = "<group>"; };
+		22684F6718F2D9A100F92E61 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		22684F6818F2D9A100F92E61 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		22684F6918F2D9A100F92E61 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		22684F6A18F2D9A100F92E61 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		22684F6B18F2D9A100F92E61 /* HighscoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighscoresTableViewController.h; sourceTree = "<group>"; };
+		22684F6C18F2D9A100F92E61 /* HighscoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighscoresTableViewController.m; sourceTree = "<group>"; };
+		22684F6D18F2D9A100F92E61 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		22684F6E18F2D9A100F92E61 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		22684F6F18F2D9A100F92E61 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22684F7018F2D9A100F92E61 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22684F7118F2D9A100F92E61 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		22684F7218F2D9A100F92E61 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22684F7318F2D9A100F92E61 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22684F7418F2D9A100F92E61 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		22684F7518F2D9A100F92E61 /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		22684F7618F2D9A100F92E61 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		22684F7718F2D9A100F92E61 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		22684F7818F2D9A100F92E61 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		22684F8818F2DA1500F92E61 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		22684F8918F2DA1500F92E61 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		22684F8A18F2DA1500F92E61 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		22684F8B18F2DA1500F92E61 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		22684F8C18F2DA1500F92E61 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		22684F8D18F2DA1500F92E61 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		22684F8E18F2DA1500F92E61 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		22684F8F18F2DA1500F92E61 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		22684F9018F2DA1500F92E61 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		22684F9118F2DA1500F92E61 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		22684F9218F2DA1500F92E61 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		22684F9318F2DA1500F92E61 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		22684F9418F2DA1500F92E61 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		22684F9518F2DA1500F92E61 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		22684F9618F2DA1500F92E61 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		22684F9718F2DA1500F92E61 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		22684F9818F2DA1500F92E61 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		22684F9918F2DA1500F92E61 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		22684F9A18F2DA1500F92E61 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		22A5179918F4677B0075E71D /* orbOrange.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = orbOrange.atlas; sourceTree = "<group>"; };
+		22A5179B18F484DC0075E71D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22A5179D18F4974F0075E71D /* Combo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Combo.h; sourceTree = "<group>"; };
+		22A5179E18F4974F0075E71D /* Combo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Combo.m; sourceTree = "<group>"; };
+		22A517A018F49AF00075E71D /* flyflycute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flyflycute.mp3; sourceTree = "<group>"; };
+		22A517A118F49AF00075E71D /* flyflyhardcore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flyflyhardcore.mp3; sourceTree = "<group>"; };
+		22A517A418F4A25A0075E71D /* backgroundHardcore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundHardcore.png; sourceTree = "<group>"; };
+		22A6D5E518F697F100E39554 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		22AED33B18FC72A40051684A /* note.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = note.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22684F1E18F2D89900F92E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A6D5E618F697F100E39554 /* CoreMotion.framework in Frameworks */,
+				22A5179C18F484DC0075E71D /* AVFoundation.framework in Frameworks */,
+				22684F6118F2D8BD00F92E61 /* Security.framework in Frameworks */,
+				22684F2718F2D89900F92E61 /* CoreGraphics.framework in Frameworks */,
+				22684F2918F2D89900F92E61 /* UIKit.framework in Frameworks */,
+				22684F2B18F2D89900F92E61 /* SpriteKit.framework in Frameworks */,
+				22684F2518F2D89900F92E61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22684F4618F2D89A00F92E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22684F4B18F2D89A00F92E61 /* XCTest.framework in Frameworks */,
+				22684F4D18F2D89A00F92E61 /* UIKit.framework in Frameworks */,
+				22684F4C18F2D89A00F92E61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22684F1818F2D89900F92E61 = {
+			isa = PBXGroup;
+			children = (
+				22684F2C18F2D89900F92E61 /* FlyFlyIPad */,
+				22684F5018F2D89A00F92E61 /* FlyFlyIPadTests */,
+				22684F2318F2D89900F92E61 /* Frameworks */,
+				22684F2218F2D89900F92E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22684F2218F2D89900F92E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22684F2118F2D89900F92E61 /* FlyFlyIPad.app */,
+				22684F4918F2D89A00F92E61 /* FlyFlyIPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22684F2318F2D89900F92E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A6D5E518F697F100E39554 /* CoreMotion.framework */,
+				22A5179B18F484DC0075E71D /* AVFoundation.framework */,
+				22684F6018F2D8BD00F92E61 /* Security.framework */,
+				22684F2418F2D89900F92E61 /* Foundation.framework */,
+				22684F2618F2D89900F92E61 /* CoreGraphics.framework */,
+				22684F2818F2D89900F92E61 /* UIKit.framework */,
+				22684F2A18F2D89900F92E61 /* SpriteKit.framework */,
+				22684F4A18F2D89A00F92E61 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22684F2C18F2D89900F92E61 /* FlyFlyIPad */ = {
+			isa = PBXGroup;
+			children = (
+				22AED33B18FC72A40051684A /* note.mp3 */,
+				22A517A418F4A25A0075E71D /* backgroundHardcore.png */,
+				22A517A018F49AF00075E71D /* flyflycute.mp3 */,
+				22A517A118F49AF00075E71D /* flyflyhardcore.mp3 */,
+				22A5179D18F4974F0075E71D /* Combo.h */,
+				22A5179E18F4974F0075E71D /* Combo.m */,
+				22A5179918F4677B0075E71D /* orbOrange.atlas */,
+				222C000118F457E3009CDA66 /* flyfly.atlas */,
+				22684F8718F2DA1500F92E61 /* AFNetworking */,
+				22684F6518F2D9A100F92E61 /* ScoreObject.h */,
+				22684F6618F2D9A100F92E61 /* ScoreObject.m */,
+				222CFFFD18F30394009CDA66 /* background.png */,
+				22684F6718F2D9A100F92E61 /* GameViewController.h */,
+				22684F6818F2D9A100F92E61 /* GameViewController.m */,
+				22684F6918F2D9A100F92E61 /* InstructionsViewController.h */,
+				22684F6A18F2D9A100F92E61 /* InstructionsViewController.m */,
+				22684F6B18F2D9A100F92E61 /* HighscoresTableViewController.h */,
+				22684F6C18F2D9A100F92E61 /* HighscoresTableViewController.m */,
+				22684F6D18F2D9A100F92E61 /* ScoreViewController.h */,
+				22684F6E18F2D9A100F92E61 /* ScoreViewController.m */,
+				22684F6F18F2D9A100F92E61 /* AppDelegate.h */,
+				22684F7018F2D9A100F92E61 /* AppDelegate.m */,
+				22684F7118F2D9A100F92E61 /* Main.storyboard */,
+				222CFFFF18F304CC009CDA66 /* Main~iPad.storyboard */,
+				22684F7218F2D9A100F92E61 /* ViewController.h */,
+				22684F7318F2D9A100F92E61 /* ViewController.m */,
+				22684F7418F2D9A100F92E61 /* MyScene.h */,
+				22684F7518F2D9A100F92E61 /* MyScene.m */,
+				22684F7618F2D9A100F92E61 /* SimpleTableCell.h */,
+				22684F7718F2D9A100F92E61 /* SimpleTableCell.m */,
+				22684F7818F2D9A100F92E61 /* SimpleTableCell.xib */,
+				22684F4318F2D89A00F92E61 /* Images.xcassets */,
+				22684F2D18F2D89900F92E61 /* Supporting Files */,
+			);
+			path = FlyFlyIPad;
+			sourceTree = "<group>";
+		};
+		22684F2D18F2D89900F92E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22684F2E18F2D89900F92E61 /* FlyFlyIPad-Info.plist */,
+				22684F2F18F2D89900F92E61 /* InfoPlist.strings */,
+				22684F3218F2D89900F92E61 /* main.m */,
+				22684F3418F2D89900F92E61 /* FlyFlyIPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22684F5018F2D89A00F92E61 /* FlyFlyIPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				22684F5618F2D89A00F92E61 /* FlyFlyIPadTests.m */,
+				22684F5118F2D89A00F92E61 /* Supporting Files */,
+			);
+			path = FlyFlyIPadTests;
+			sourceTree = "<group>";
+		};
+		22684F5118F2D89A00F92E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22684F5218F2D89A00F92E61 /* FlyFlyIPadTests-Info.plist */,
+				22684F5318F2D89A00F92E61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22684F8718F2DA1500F92E61 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				22684F8818F2DA1500F92E61 /* AFHTTPRequestOperation.h */,
+				22684F8918F2DA1500F92E61 /* AFHTTPRequestOperation.m */,
+				22684F8A18F2DA1500F92E61 /* AFHTTPRequestOperationManager.h */,
+				22684F8B18F2DA1500F92E61 /* AFHTTPRequestOperationManager.m */,
+				22684F8C18F2DA1500F92E61 /* AFHTTPSessionManager.h */,
+				22684F8D18F2DA1500F92E61 /* AFHTTPSessionManager.m */,
+				22684F8E18F2DA1500F92E61 /* AFNetworking.h */,
+				22684F8F18F2DA1500F92E61 /* AFNetworkReachabilityManager.h */,
+				22684F9018F2DA1500F92E61 /* AFNetworkReachabilityManager.m */,
+				22684F9118F2DA1500F92E61 /* AFSecurityPolicy.h */,
+				22684F9218F2DA1500F92E61 /* AFSecurityPolicy.m */,
+				22684F9318F2DA1500F92E61 /* AFURLConnectionOperation.h */,
+				22684F9418F2DA1500F92E61 /* AFURLConnectionOperation.m */,
+				22684F9518F2DA1500F92E61 /* AFURLRequestSerialization.h */,
+				22684F9618F2DA1500F92E61 /* AFURLRequestSerialization.m */,
+				22684F9718F2DA1500F92E61 /* AFURLResponseSerialization.h */,
+				22684F9818F2DA1500F92E61 /* AFURLResponseSerialization.m */,
+				22684F9918F2DA1500F92E61 /* AFURLSessionManager.h */,
+				22684F9A18F2DA1500F92E61 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22684F2018F2D89900F92E61 /* FlyFlyIPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22684F5A18F2D89A00F92E61 /* Build configuration list for PBXNativeTarget "FlyFlyIPad" */;
+			buildPhases = (
+				22684F1D18F2D89900F92E61 /* Sources */,
+				22684F1E18F2D89900F92E61 /* Frameworks */,
+				22684F1F18F2D89900F92E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyFlyIPad;
+			productName = FlyFlyIPad;
+			productReference = 22684F2118F2D89900F92E61 /* FlyFlyIPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22684F4818F2D89A00F92E61 /* FlyFlyIPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22684F5D18F2D89A00F92E61 /* Build configuration list for PBXNativeTarget "FlyFlyIPadTests" */;
+			buildPhases = (
+				22684F4518F2D89A00F92E61 /* Sources */,
+				22684F4618F2D89A00F92E61 /* Frameworks */,
+				22684F4718F2D89A00F92E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22684F4F18F2D89A00F92E61 /* PBXTargetDependency */,
+			);
+			name = FlyFlyIPadTests;
+			productName = FlyFlyIPadTests;
+			productReference = 22684F4918F2D89A00F92E61 /* FlyFlyIPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22684F1918F2D89900F92E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu.fontys.sm;
+				TargetAttributes = {
+					22684F2018F2D89900F92E61 = {
+						DevelopmentTeam = CU3Z5M9BXQ;
+					};
+					22684F4818F2D89A00F92E61 = {
+						TestTargetID = 22684F2018F2D89900F92E61;
+					};
+				};
+			};
+			buildConfigurationList = 22684F1C18F2D89900F92E61 /* Build configuration list for PBXProject "FlyFlyIPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22684F1818F2D89900F92E61;
+			productRefGroup = 22684F2218F2D89900F92E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22684F2018F2D89900F92E61 /* FlyFlyIPad */,
+				22684F4818F2D89A00F92E61 /* FlyFlyIPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22684F1F18F2D89900F92E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22684F8618F2D9A100F92E61 /* SimpleTableCell.xib in Resources */,
+				22A517A218F49AF00075E71D /* flyflycute.mp3 in Resources */,
+				22A517A318F49AF00075E71D /* flyflyhardcore.mp3 in Resources */,
+				22A5179A18F4677B0075E71D /* orbOrange.atlas in Resources */,
+				22684F3118F2D89900F92E61 /* InfoPlist.strings in Resources */,
+				222CFFFE18F30394009CDA66 /* background.png in Resources */,
+				222C000018F304CC009CDA66 /* Main~iPad.storyboard in Resources */,
+				22A517A518F4A25A0075E71D /* backgroundHardcore.png in Resources */,
+				22AED33C18FC72A40051684A /* note.mp3 in Resources */,
+				22684F8218F2D9A100F92E61 /* Main.storyboard in Resources */,
+				222C000218F457E3009CDA66 /* flyfly.atlas in Resources */,
+				22684F4418F2D89A00F92E61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22684F4718F2D89A00F92E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22684F5518F2D89A00F92E61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22684F1D18F2D89900F92E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22684FA018F2DA1500F92E61 /* AFURLConnectionOperation.m in Sources */,
+				22684F8418F2D9A100F92E61 /* MyScene.m in Sources */,
+				22A5179F18F4974F0075E71D /* Combo.m in Sources */,
+				22684F9F18F2DA1500F92E61 /* AFSecurityPolicy.m in Sources */,
+				22684F3318F2D89900F92E61 /* main.m in Sources */,
+				22684F9C18F2DA1500F92E61 /* AFHTTPRequestOperationManager.m in Sources */,
+				22684F7F18F2D9A100F92E61 /* HighscoresTableViewController.m in Sources */,
+				22684F8318F2D9A100F92E61 /* ViewController.m in Sources */,
+				22684F8518F2D9A100F92E61 /* SimpleTableCell.m in Sources */,
+				22684F7D18F2D9A100F92E61 /* GameViewController.m in Sources */,
+				22684F8018F2D9A100F92E61 /* ScoreViewController.m in Sources */,
+				22684FA318F2DA1500F92E61 /* AFURLSessionManager.m in Sources */,
+				22684FA218F2DA1500F92E61 /* AFURLResponseSerialization.m in Sources */,
+				22684F7C18F2D9A100F92E61 /* ScoreObject.m in Sources */,
+				22684F7E18F2D9A100F92E61 /* InstructionsViewController.m in Sources */,
+				22684FA118F2DA1500F92E61 /* AFURLRequestSerialization.m in Sources */,
+				22684F9E18F2DA1500F92E61 /* AFNetworkReachabilityManager.m in Sources */,
+				22684F8118F2D9A100F92E61 /* AppDelegate.m in Sources */,
+				22684F9B18F2DA1500F92E61 /* AFHTTPRequestOperation.m in Sources */,
+				22684F9D18F2DA1500F92E61 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22684F4518F2D89A00F92E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22684F5718F2D89A00F92E61 /* FlyFlyIPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22684F4F18F2D89A00F92E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22684F2018F2D89900F92E61 /* FlyFlyIPad */;
+			targetProxy = 22684F4E18F2D89A00F92E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22684F2F18F2D89900F92E61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22684F3018F2D89900F92E61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22684F5318F2D89A00F92E61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22684F5418F2D89A00F92E61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22684F5818F2D89A00F92E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22684F5918F2D89A00F92E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22684F5B18F2D89A00F92E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyFlyIPad/FlyFlyIPad-Prefix.pch";
+				INFOPLIST_FILE = "FlyFlyIPad/FlyFlyIPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22684F5C18F2D89A00F92E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyFlyIPad/FlyFlyIPad-Prefix.pch";
+				INFOPLIST_FILE = "FlyFlyIPad/FlyFlyIPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22684F5E18F2D89A00F92E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyFlyIPad.app/FlyFlyIPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyFlyIPad/FlyFlyIPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlyFlyIPadTests/FlyFlyIPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22684F5F18F2D89A00F92E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyFlyIPad.app/FlyFlyIPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyFlyIPad/FlyFlyIPad-Prefix.pch";
+				INFOPLIST_FILE = "FlyFlyIPadTests/FlyFlyIPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22684F1C18F2D89900F92E61 /* Build configuration list for PBXProject "FlyFlyIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22684F5818F2D89A00F92E61 /* Debug */,
+				22684F5918F2D89A00F92E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22684F5A18F2D89A00F92E61 /* Build configuration list for PBXNativeTarget "FlyFlyIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22684F5B18F2D89A00F92E61 /* Debug */,
+				22684F5C18F2D89A00F92E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22684F5D18F2D89A00F92E61 /* Build configuration list for PBXNativeTarget "FlyFlyIPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22684F5E18F2D89A00F92E61 /* Debug */,
+				22684F5F18F2D89A00F92E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22684F1918F2D89900F92E61 /* Project object */;
+}
