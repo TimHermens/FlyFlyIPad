@@ -50,6 +50,7 @@
 		22A517A318F49AF00075E71D /* flyflyhardcore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22A517A118F49AF00075E71D /* flyflyhardcore.mp3 */; };
 		22A517A518F4A25A0075E71D /* backgroundHardcore.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A517A418F4A25A0075E71D /* backgroundHardcore.png */; };
 		22A6D5E618F697F100E39554 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6D5E518F697F100E39554 /* CoreMotion.framework */; };
+		22AC459D19017D2D0001CFD7 /* dera.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC459C19017D2D0001CFD7 /* dera.m */; };
 		22AED33C18FC72A40051684A /* note.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22AED33B18FC72A40051684A /* note.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +131,8 @@
 		22A517A118F49AF00075E71D /* flyflyhardcore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flyflyhardcore.mp3; sourceTree = "<group>"; };
 		22A517A418F4A25A0075E71D /* backgroundHardcore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundHardcore.png; sourceTree = "<group>"; };
 		22A6D5E518F697F100E39554 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		22AC459B19017D2D0001CFD7 /* dera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dera.h; sourceTree = "<group>"; };
+		22AC459C19017D2D0001CFD7 /* dera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dera.m; sourceTree = "<group>"; };
 		22AED33B18FC72A40051684A /* note.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = note.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +167,8 @@
 		22684F1818F2D89900F92E61 = {
 			isa = PBXGroup;
 			children = (
+				22AC459B19017D2D0001CFD7 /* dera.h */,
+				22AC459C19017D2D0001CFD7 /* dera.m */,
 				22684F2C18F2D89900F92E61 /* FlyFlyIPad */,
 				22684F5018F2D89A00F92E61 /* FlyFlyIPadTests */,
 				22684F2318F2D89900F92E61 /* Frameworks */,
@@ -412,6 +417,7 @@
 				22684F8018F2D9A100F92E61 /* ScoreViewController.m in Sources */,
 				22684FA318F2DA1500F92E61 /* AFURLSessionManager.m in Sources */,
 				22684FA218F2DA1500F92E61 /* AFURLResponseSerialization.m in Sources */,
+				22AC459D19017D2D0001CFD7 /* dera.m in Sources */,
 				22684F7C18F2D9A100F92E61 /* ScoreObject.m in Sources */,
 				22684F7E18F2D9A100F92E61 /* InstructionsViewController.m in Sources */,
 				22684FA118F2DA1500F92E61 /* AFURLRequestSerialization.m in Sources */,
